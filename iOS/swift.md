@@ -72,4 +72,4 @@ Descriptive and consistent naming makes code easier to read and understand. The 
 - **Internal parameter names are important.** Even though they don't appear where a function is called, internal parameter names make function signatures, function implementations, and documentation easier to read.
 - **Default argument values simplify common uses.** Any parameter with a single commonly-used value is a candidate for a default. Prefer to locate parameters with defaults toward the end of the parameter list.
 - **Label tuple members and name closure parameters** where they appear in your API.
-- **Avoid single letter placeholder type names** When using generics in your code, do not use placeholder types such as `T`, `S`. etc. instead opting for descriptive names such as `Type`, `Element`, `Number`, etc.
+- **Avoid single letter placeholder type names.** When using generics in your code, do not use placeholder types such as `T`, `S`. etc. instead opting for descriptive names such as `Type`, `Element`, `Number`, etc.
